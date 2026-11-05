@@ -1,0 +1,5 @@
+/target
+/bookings.db
+/bookings.db-wal
+/bookings.db-shm
+.env

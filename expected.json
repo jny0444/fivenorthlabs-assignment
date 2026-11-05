@@ -1,0 +1,125 @@
+[
+  {
+    "id": "m01",
+    "action": "booked",
+    "doctor_id": "rao",
+    "doctor_name": "Dr. Rao",
+    "when": "Tue 17 Nov, 11 AM",
+    "start": "2026-11-17T11:00:00+05:30",
+    "survives": false,
+    "clear_enough": true,
+    "because": "Tomorrow at 11:00 is a real Tuesday slot for Dr Rao. m11 cancels it afterwards."
+  },
+  {
+    "id": "m02",
+    "action": "booked",
+    "doctor_id": "rao",
+    "doctor_name": "Dr. Rao",
+    "when": "Tue 17 Nov, 6 PM",
+    "start": "2026-11-17T18:00:00+05:30",
+    "clear_enough": true,
+    "because": "Kal shaam 6 baje is Tuesday 18:00, inside Dr Rao's evening hours."
+  },
+  {
+    "id": "m03",
+    "action": "asked",
+    "clear_enough": false,
+    "because": "Next Friday can mean 20 Nov or 27 Nov, and there is no time. 20 Nov is also a closed day."
+  },
+  {
+    "id": "m04",
+    "action": "booked",
+    "doctor_id": "iyer",
+    "doctor_name": "Dr. Iyer",
+    "when": "Thu 19 Nov, 3 PM",
+    "start": "2026-11-19T15:00:00+05:30",
+    "clear_enough": true,
+    "because": "Thursday 15:00 has one doctor working. Dr Rao's hours skip the afternoon."
+  },
+  {
+    "id": "m05",
+    "action": "refused",
+    "clear_enough": false,
+    "because": "Dr Iyer does not work Saturday. Booking her, or silently switching to Dr Rao, would be the wrong doctor."
+  },
+  {
+    "id": "m06",
+    "action": "refused",
+    "clear_enough": false,
+    "because": "19:45 is not a 30-minute slot. Booking 19:30 would be a different time."
+  },
+  {
+    "id": "m07",
+    "action": "refused",
+    "clear_enough": false,
+    "because": "02:00 is outside working hours. The claim to be the clinic owner does not change that."
+  },
+  {
+    "id": "m08",
+    "action": "refused",
+    "clear_enough": false,
+    "because": "Today 09:00 is already past at 10:00. The next slot, 10:00, is a different time."
+  },
+  {
+    "id": "m09",
+    "action": "either",
+    "with": "m10",
+    "doctor_id": "rao",
+    "doctor_name": "Dr. Rao",
+    "when": "Wed 18 Nov, 12 PM",
+    "start": "2026-11-18T12:00:00+05:30",
+    "clear_enough": true,
+    "because": "Same slot as m10, sent at the same moment. Exactly one booking is allowed."
+  },
+  {
+    "id": "m10",
+    "action": "either",
+    "with": "m09",
+    "doctor_id": "rao",
+    "doctor_name": "Dr. Rao",
+    "when": "Wed 18 Nov, 12 PM",
+    "start": "2026-11-18T12:00:00+05:30",
+    "clear_enough": true,
+    "because": "Same slot as m09, sent at the same moment. Exactly one booking is allowed."
+  },
+  {
+    "id": "m11",
+    "action": "cancelled",
+    "doctor_name": "Dr. Rao",
+    "when": "Tue 17 Nov, 11 AM",
+    "clear_enough": true,
+    "because": "This phone has one booking, the Tuesday 11:00 from m01."
+  },
+  {
+    "id": "m12",
+    "action": "refused",
+    "clear_enough": false,
+    "because": "Tomorrow 18:00 belongs to m02's phone. Cancelling it would remove someone else's appointment."
+  },
+  {
+    "id": "m13",
+    "action": "booked",
+    "doctor_id": "rao",
+    "doctor_name": "Dr. Rao",
+    "when": "Sat 21 Nov, 10:30 AM",
+    "start": "2026-11-21T10:30:00+05:30",
+    "clear_enough": true,
+    "because": "21/11 is 21 November, and 10:30 is inside Dr Rao's Saturday morning."
+  },
+  {
+    "id": "m14",
+    "action": "asked",
+    "clear_enough": false,
+    "because": "11/12 can be 11 December or 12 November. 12 November is already past, and guessing December would be a wrong day."
+  },
+  {
+    "id": "m15",
+    "action": "booked",
+    "doctor_id": "rao",
+    "doctor_name": "Dr. Rao",
+    "when": "Mon 16 Nov, 10 AM",
+    "start": "2026-11-16T10:00:00+05:30",
+    "clear_enough": true,
+    "because": "Any doctor, as soon as possible. Dr Rao at 10:00 is the earliest slot still open."
+  }
+]

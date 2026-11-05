@@ -1,0 +1,137 @@
+[
+  {
+    "id": "m01",
+    "intent": "book",
+    "date": "2026-11-17",
+    "time": "11:00",
+    "doctor_id": "rao",
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m02",
+    "intent": "book",
+    "date": "2026-11-17",
+    "time": "18:00",
+    "doctor_id": "rao",
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m03",
+    "intent": "book",
+    "date": null,
+    "time": null,
+    "doctor_id": null,
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m04",
+    "intent": "book",
+    "date": "2026-11-19",
+    "time": "15:00",
+    "doctor_id": null,
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m05",
+    "intent": "book",
+    "date": "2026-11-21",
+    "time": "12:00",
+    "doctor_id": "iyer",
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m06",
+    "intent": "book",
+    "date": "2026-11-18",
+    "time": "19:45",
+    "doctor_id": "rao",
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m07",
+    "intent": "book",
+    "date": "2026-11-17",
+    "time": "02:00",
+    "doctor_id": null,
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m08",
+    "intent": "book",
+    "date": "2026-11-16",
+    "time": "09:00",
+    "doctor_id": null,
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m09",
+    "intent": "book",
+    "date": "2026-11-18",
+    "time": "12:00",
+    "doctor_id": "rao",
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m10",
+    "intent": "book",
+    "date": "2026-11-18",
+    "time": "12:00",
+    "doctor_id": "rao",
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m11",
+    "intent": "cancel",
+    "date": null,
+    "time": null,
+    "doctor_id": null,
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m12",
+    "intent": "cancel",
+    "date": "2026-11-17",
+    "time": "18:00",
+    "doctor_id": null,
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m13",
+    "intent": "book",
+    "date": "2026-11-21",
+    "time": "10:30",
+    "doctor_id": "rao",
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m14",
+    "intent": "book",
+    "date": null,
+    "time": "17:00",
+    "doctor_id": null,
+    "any_doctor": false,
+    "earliest": false
+  },
+  {
+    "id": "m15",
+    "intent": "book",
+    "date": null,
+    "time": null,
+    "doctor_id": null,
+    "any_doctor": true,
+    "earliest": true
+  }
+]
